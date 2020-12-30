@@ -1,0 +1,18 @@
+建立個人資料庫 - 從 Webcam 收集 人臉 資料
+
+準備資料：
+
+實現方法：
+step01: 開啓 jupyter notebooks
+step02: 執行 usbcam_video2image_format.ipynb
+
+產生資料：
+	video/		存放 錄製 的 影片
+	image/		存放 包含人臉原始影像
+	image_face/	存放 已切割的人臉區域
+	image_32/	存放 已resize 32x32 的 人臉資料	
+	
+	
+	
+	
+下一步： model_train&test
